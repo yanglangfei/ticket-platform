@@ -1,0 +1,13 @@
+server:
+  port: 8886
+spring:
+  rabbitmq:
+    host: 192.168.101.197
+    port: 5672
+    username: admin
+    password: admin123
+  redis:
+    host: 192.168.101.197
+    port: 6379
+    password: admin123
+    database: 5
